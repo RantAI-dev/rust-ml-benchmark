@@ -1,0 +1,2 @@
+{"library":"linfa","model":"DecisionTree","train_time_sec":0.000131024,"inference_time_sec":1.886e-6,"accuracy":0.699999988079071,"memory_usage_mb":0.0}
+{"library":"linfa","model":"SVM (One-vs-Rest)","train_time_sec":0.003102677,"inference_time_sec":0.000105881,"accuracy":0.8,"memory_usage_mb":0.25}

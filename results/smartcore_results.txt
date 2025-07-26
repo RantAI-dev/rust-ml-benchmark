@@ -1,0 +1,2 @@
+{"library":"smartcore","model":"RandomForestClassifier","train_time_sec":0.00247179,"inference_time_sec":0.000189133,"accuracy":0.7333333333333333,"memory_usage_mb":0.375}
+{"library":"smartcore","model":"MultiClassSVC","train_time_sec":0.005999527,"inference_time_sec":0.000246264,"accuracy":0.8333333333333334,"memory_usage_mb":0.25}

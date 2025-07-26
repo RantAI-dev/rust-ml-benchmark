@@ -1,0 +1,21 @@
+\begin{table}
+\caption{Performance Comparison of Classical ML Libraries on the Iris Dataset.}
+\label{tab:classical_ml_results}
+\begin{tabular}{llrrrr}
+\toprule
+ &  & Training Time (s) & Inference Time (s) & Accuracy & Memory Usage (MB) \\
+library & model &  &  &  &  \\
+\midrule
+\multirow[t]{3}{*}{\textbf{scikit-learn}} & \textbf{RandomForestClassifier} & 0.08100 & 0.00370 & 1.00000 & 1.18360 \\
+\textbf{} & \textbf{SVC} & 0.00140 & 0.00060 & 1.00000 & 0.25000 \\
+\textbf{} & \textbf{MLPClassifier} & 0.12070 & 0.00070 & 0.96670 & 1.13670 \\
+\cline{1-6}
+\multirow[t]{2}{*}{\textbf{linfa}} & \textbf{DecisionTree} & 0.00013 & 0.00000 & 0.70000 & 0.00000 \\
+\textbf{} & \textbf{SVM (One-vs-Rest)} & 0.00310 & 0.00011 & 0.80000 & 0.25000 \\
+\cline{1-6}
+\multirow[t]{2}{*}{\textbf{smartcore}} & \textbf{RandomForestClassifier} & 0.00247 & 0.00019 & 0.73333 & 0.37500 \\
+\textbf{} & \textbf{MultiClassSVC} & 0.00600 & 0.00025 & 0.83333 & 0.25000 \\
+\cline{1-6}
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,5 @@
+[workspace]
+resolver = "2"
+members = [
+    "linfa_bencher", "smartcore_bencher",
+]
