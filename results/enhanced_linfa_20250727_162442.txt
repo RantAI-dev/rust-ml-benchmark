@@ -1,0 +1,105 @@
+# Enhanced Linfa Iris Benchmark Results
+# Generated: 2025-07-27 16:24:45.608648773 +07:00
+# System: 12 cores, 19.4GB RAM
+# Methodology: 2 runs + 1 warmup
+
+{
+  "system_info": {
+    "hostname": "shironeko",
+    "cpu_model": "AMD Ryzen 5 4600G with Radeon Graphics",
+    "cpu_cores": 12,
+    "total_memory_gb": 19.410411834716797,
+    "os_version": "Linux shironeko 6.14.0-24-generic #24~24.04.3-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul  7 16:39:17 UTC 2 x86_64 x86_64 x86_64 GNU/Linux",
+    "rust_version": "rustc 1.87.0 (17067e9ac 2025-05-09)",
+    "linfa_version": "0.7.0",
+    "timestamp": "2025-07-27T16:24:45.210743961+07:00"
+  },
+  "dataset_info": {
+    "name": "Iris",
+    "path": "/home/shirologic/Desktop/RantAI/repo/rust-ml-benchmark/data/iris.csv",
+    "preprocessing_notes": "Linear scaling, binary SVM (Setosa vs Others)"
+  },
+  "library": "linfa",
+  "model": "DecisionTree",
+  "train_time_stats": {
+    "mean": 0.00012561700000000001,
+    "std_dev": 0.000017705999999999996,
+    "min_val": 0.000107911,
+    "max_val": 0.000143323,
+    "count": 2
+  },
+  "inference_time_stats": {
+    "mean": 1.1869999999999998e-6,
+    "std_dev": 2.1e-7,
+    "min_val": 9.77e-7,
+    "max_val": 1.397e-6,
+    "count": 2
+  },
+  "accuracy_stats": {
+    "mean": 0.6896551847457886,
+    "std_dev": 0.0,
+    "min_val": 0.6896551847457886,
+    "max_val": 0.6896551847457886,
+    "count": 2
+  },
+  "memory_usage_stats": {
+    "mean": 0.0,
+    "std_dev": 0.0,
+    "min_val": 0.0,
+    "max_val": 0.0,
+    "count": 2
+  },
+  "runs": 2,
+  "warmup_runs": 1
+}
+
+{
+  "system_info": {
+    "hostname": "shironeko",
+    "cpu_model": "AMD Ryzen 5 4600G with Radeon Graphics",
+    "cpu_cores": 12,
+    "total_memory_gb": 19.410411834716797,
+    "os_version": "Linux shironeko 6.14.0-24-generic #24~24.04.3-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul  7 16:39:17 UTC 2 x86_64 x86_64 x86_64 GNU/Linux",
+    "rust_version": "rustc 1.87.0 (17067e9ac 2025-05-09)",
+    "linfa_version": "0.7.0",
+    "timestamp": "2025-07-27T16:24:45.210743961+07:00"
+  },
+  "dataset_info": {
+    "name": "Iris",
+    "path": "/home/shirologic/Desktop/RantAI/repo/rust-ml-benchmark/data/iris.csv",
+    "preprocessing_notes": "Linear scaling, binary SVM (Setosa vs Others)"
+  },
+  "library": "linfa",
+  "model": "SVM (Binary: Setosa vs Others)",
+  "train_time_stats": {
+    "mean": 0.001314588,
+    "std_dev": 0.00020251600000000002,
+    "min_val": 0.001112072,
+    "max_val": 0.001517104,
+    "count": 2
+  },
+  "inference_time_stats": {
+    "mean": 0.000044387,
+    "std_dev": 0.000010931000000000001,
+    "min_val": 0.000033456,
+    "max_val": 0.000055318,
+    "count": 2
+  },
+  "accuracy_stats": {
+    "mean": 1.0,
+    "std_dev": 0.0,
+    "min_val": 1.0,
+    "max_val": 1.0,
+    "count": 2
+  },
+  "memory_usage_stats": {
+    "mean": 0.328125,
+    "std_dev": 0.078125,
+    "min_val": 0.25,
+    "max_val": 0.40625,
+    "count": 2
+  },
+  "runs": 2,
+  "warmup_runs": 1
+}
+

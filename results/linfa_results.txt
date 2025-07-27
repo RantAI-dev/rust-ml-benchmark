@@ -1,2 +1,2 @@
-{"library":"linfa","model":"DecisionTree","train_time_sec":0.000131024,"inference_time_sec":1.886e-6,"accuracy":0.699999988079071,"memory_usage_mb":0.0}
-{"library":"linfa","model":"SVM (One-vs-Rest)","train_time_sec":0.003102677,"inference_time_sec":0.000105881,"accuracy":0.8,"memory_usage_mb":0.25}
+{"library":"linfa","model":"DecisionTree","train_time_sec":0.502816983,"inference_time_sec":0.000139022,"accuracy":0.7204079031944275,"memory_usage_mb":6.5}
+{"library":"linfa","model":"SVM (Gaussian/RBF)","train_time_sec":610.935270891,"inference_time_sec":8.600239383,"accuracy":0.691635304115576,"memory_usage_mb":1.97265625}

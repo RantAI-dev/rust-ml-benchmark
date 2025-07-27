@@ -1,0 +1,155 @@
+# Enhanced SmartCore Iris Benchmark Results
+# Generated: 2025-07-27 16:24:27.912093019 +07:00
+# System: 12 cores, 19.4GB RAM
+# Methodology: 2 runs + 1 warmup
+
+{
+  "system_info": {
+    "hostname": "shironeko",
+    "cpu_model": "AMD Ryzen 5 4600G with Radeon Graphics",
+    "cpu_cores": 12,
+    "total_memory_gb": 19.410411834716797,
+    "os_version": "Linux shironeko 6.14.0-24-generic #24~24.04.3-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul  7 16:39:17 UTC 2 x86_64 x86_64 x86_64 GNU/Linux",
+    "rust_version": "rustc 1.87.0 (17067e9ac 2025-05-09)",
+    "smartcore_version": "0.4.0",
+    "timestamp": "2025-07-27T16:24:27.499167750+07:00"
+  },
+  "dataset_info": {
+    "name": "Iris",
+    "path": "/home/shirologic/Desktop/RantAI/repo/rust-ml-benchmark/data/iris.csv",
+    "preprocessing_notes": "Standard scaling for SVM, unscaled for trees"
+  },
+  "library": "smartcore",
+  "model": "SVC (One-vs-Rest)",
+  "train_time_stats": {
+    "mean": 0.019708763499999997,
+    "std_dev": 0.0003158394999999998,
+    "min_val": 0.019392924,
+    "max_val": 0.020024603,
+    "count": 2
+  },
+  "inference_time_stats": {
+    "mean": 0.001,
+    "std_dev": 0.0,
+    "min_val": 0.001,
+    "max_val": 0.001,
+    "count": 2
+  },
+  "accuracy_stats": {
+    "mean": 0.8333333333333334,
+    "std_dev": 0.0,
+    "min_val": 0.8333333333333334,
+    "max_val": 0.8333333333333334,
+    "count": 2
+  },
+  "memory_usage_stats": {
+    "mean": 0.125,
+    "std_dev": 0.0,
+    "min_val": 0.125,
+    "max_val": 0.125,
+    "count": 2
+  },
+  "runs": 2,
+  "warmup_runs": 1
+}
+
+{
+  "system_info": {
+    "hostname": "shironeko",
+    "cpu_model": "AMD Ryzen 5 4600G with Radeon Graphics",
+    "cpu_cores": 12,
+    "total_memory_gb": 19.410411834716797,
+    "os_version": "Linux shironeko 6.14.0-24-generic #24~24.04.3-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul  7 16:39:17 UTC 2 x86_64 x86_64 x86_64 GNU/Linux",
+    "rust_version": "rustc 1.87.0 (17067e9ac 2025-05-09)",
+    "smartcore_version": "0.4.0",
+    "timestamp": "2025-07-27T16:24:27.499167750+07:00"
+  },
+  "dataset_info": {
+    "name": "Iris",
+    "path": "/home/shirologic/Desktop/RantAI/repo/rust-ml-benchmark/data/iris.csv",
+    "preprocessing_notes": "Standard scaling for SVM, unscaled for trees"
+  },
+  "library": "smartcore",
+  "model": "RandomForestClassifier",
+  "train_time_stats": {
+    "mean": 0.0022188755,
+    "std_dev": 0.000012327500000000081,
+    "min_val": 0.002206548,
+    "max_val": 0.002231203,
+    "count": 2
+  },
+  "inference_time_stats": {
+    "mean": 0.000185369,
+    "std_dev": 0.000012432000000000006,
+    "min_val": 0.000172937,
+    "max_val": 0.000197801,
+    "count": 2
+  },
+  "accuracy_stats": {
+    "mean": 0.7333333333333333,
+    "std_dev": 0.0,
+    "min_val": 0.7333333333333333,
+    "max_val": 0.7333333333333333,
+    "count": 2
+  },
+  "memory_usage_stats": {
+    "mean": 0.375,
+    "std_dev": 0.0,
+    "min_val": 0.375,
+    "max_val": 0.375,
+    "count": 2
+  },
+  "runs": 2,
+  "warmup_runs": 1
+}
+
+{
+  "system_info": {
+    "hostname": "shironeko",
+    "cpu_model": "AMD Ryzen 5 4600G with Radeon Graphics",
+    "cpu_cores": 12,
+    "total_memory_gb": 19.410411834716797,
+    "os_version": "Linux shironeko 6.14.0-24-generic #24~24.04.3-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul  7 16:39:17 UTC 2 x86_64 x86_64 x86_64 GNU/Linux",
+    "rust_version": "rustc 1.87.0 (17067e9ac 2025-05-09)",
+    "smartcore_version": "0.4.0",
+    "timestamp": "2025-07-27T16:24:27.499167750+07:00"
+  },
+  "dataset_info": {
+    "name": "Iris",
+    "path": "/home/shirologic/Desktop/RantAI/repo/rust-ml-benchmark/data/iris.csv",
+    "preprocessing_notes": "Standard scaling for SVM, unscaled for trees"
+  },
+  "library": "smartcore",
+  "model": "DecisionTreeClassifier",
+  "train_time_stats": {
+    "mean": 0.0000477045,
+    "std_dev": 1.3949999999999756e-7,
+    "min_val": 0.000047565,
+    "max_val": 0.000047844,
+    "count": 2
+  },
+  "inference_time_stats": {
+    "mean": 3.3520000000000003e-6,
+    "std_dev": 6.999999999999997e-8,
+    "min_val": 3.282e-6,
+    "max_val": 3.422e-6,
+    "count": 2
+  },
+  "accuracy_stats": {
+    "mean": 0.7333333333333333,
+    "std_dev": 0.0,
+    "min_val": 0.7333333333333333,
+    "max_val": 0.7333333333333333,
+    "count": 2
+  },
+  "memory_usage_stats": {
+    "mean": 0.0,
+    "std_dev": 0.0,
+    "min_val": 0.0,
+    "max_val": 0.0,
+    "count": 2
+  },
+  "runs": 2,
+  "warmup_runs": 1
+}
+

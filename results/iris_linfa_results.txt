@@ -1,0 +1,2 @@
+{"library":"linfa","model":"DecisionTree","train_time_sec":0.00233225,"inference_time_sec":0.000025632,"accuracy":0.6896551847457886,"memory_usage_mb":0.0}
+{"library":"linfa","model":"SVM (Binary: Setosa vs Others)","train_time_sec":0.055503947,"inference_time_sec":0.002579352,"accuracy":1.0,"memory_usage_mb":0.25}

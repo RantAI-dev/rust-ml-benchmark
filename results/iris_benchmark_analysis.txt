@@ -1,0 +1,23 @@
+IRIS DATASET BENCHMARK ANALYSIS
+==================================================
+
+Summary Statistics by Library:
+             train_time_sec                      ... memory_usage_mb                
+                       mean       min       max  ...            mean   min       max
+library                                          ...                                
+linfa              0.028918  0.002332  0.055504  ...        0.125000  0.00  0.250000
+scikit-learn       0.040200  0.001109  0.118056  ...        0.463542  0.25  0.765625
+smartcore          0.072252  0.000513  0.174034  ...        0.166667  0.00  0.250000
+
+[3 rows x 12 columns]
+
+Detailed Results:
+     library                          model  train_time_sec  inference_time_sec  accuracy  memory_usage_mb
+scikit-learn         DecisionTreeClassifier        0.001109            0.000264  1.000000         0.765625
+scikit-learn         RandomForestClassifier        0.118056            0.004227  1.000000         0.375000
+scikit-learn                            SVC        0.001437            0.000193  1.000000         0.250000
+   smartcore         DecisionTreeClassifier        0.000513            0.000022  0.733333         0.000000
+   smartcore         RandomForestClassifier        0.042207            0.001733  0.733333         0.250000
+   smartcore              SVC (One-vs-Rest)        0.174034            0.001000  0.833333         0.250000
+       linfa                   DecisionTree        0.002332            0.000026  0.689655         0.000000
+       linfa SVM (Binary: Setosa vs Others)        0.055504            0.002579  1.000000         0.250000

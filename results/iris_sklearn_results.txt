@@ -1,0 +1,3 @@
+{"library": "scikit-learn", "model": "DecisionTreeClassifier", "train_time_sec": 0.0011086463928222656, "inference_time_sec": 0.0002639293670654297, "accuracy": 1.0, "memory_usage_mb": 0.765625}
+{"library": "scikit-learn", "model": "RandomForestClassifier", "train_time_sec": 0.11805582046508789, "inference_time_sec": 0.004227399826049805, "accuracy": 1.0, "memory_usage_mb": 0.375}
+{"library": "scikit-learn", "model": "SVC", "train_time_sec": 0.0014367103576660156, "inference_time_sec": 0.0001926422119140625, "accuracy": 1.0, "memory_usage_mb": 0.25}

@@ -1,0 +1,3 @@
+{"library":"smartcore","model":"DecisionTreeClassifier","train_time_sec":0.000513343,"inference_time_sec":0.000021861,"accuracy":0.7333333333333333,"memory_usage_mb":0.0}
+{"library":"smartcore","model":"RandomForestClassifier","train_time_sec":0.042207428,"inference_time_sec":0.001732865,"accuracy":0.7333333333333333,"memory_usage_mb":0.25}
+{"library":"smartcore","model":"SVC (One-vs-Rest)","train_time_sec":0.174033823,"inference_time_sec":0.001,"accuracy":0.8333333333333334,"memory_usage_mb":0.25}
