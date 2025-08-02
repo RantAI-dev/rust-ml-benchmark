@@ -1,0 +1,13 @@
+scikit-learn
+pandas
+torch
+torchvision
+transformers
+datasets
+scipy
+pingouin
+matplotlib
+seaborn
+psutil
+numpy
+pynvml

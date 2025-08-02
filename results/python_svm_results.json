@@ -1,0 +1,29 @@
+{
+    "language": "python",
+    "algorithm": "svm",
+    "timestamp": 1754139800.688584,
+    "system_info": {
+        "cpu_count": 12,
+        "total_memory_mb": 19876.2578125
+    },
+    "benchmark_results": {
+        "total_training_time_seconds": 0.017777061000742833,
+        "training_throughput_samples_per_sec": 80834.5091429879,
+        "inference_throughput_samples_per_sec": 96926.14872486,
+        "inference_latency_mean_seconds": 0.0008299786899988249,
+        "inference_latency_p50_seconds": 0.0008050520000324468,
+        "inference_latency_p90_seconds": 0.0009565054999256973,
+        "inference_latency_p99_seconds": 0.0011528176803403776,
+        "cpu_utilization_mean_percent": 0,
+        "cpu_utilization_peak_percent": 0,
+        "memory_mean_mb": 0,
+        "memory_peak_mb": 0,
+        "memory_delta_mb": 2.34765625,
+        "model_accuracy": 0.9777777777777777,
+        "metric_type": "accuracy",
+        "training_samples": 1437,
+        "test_samples": 360,
+        "features": 64,
+        "classes": 10
+    }
+}
